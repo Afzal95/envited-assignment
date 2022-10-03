@@ -1,0 +1,93 @@
+.header{
+    font-size: 36px;
+    line-height: 36px;
+    color: #240D57;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+}
+.headDiv{
+    width:283px;
+    height:108px;
+    margin:auto;
+    margin-top:94px;
+}
+.header span {
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: block;
+}
+.textDesc{
+    width:321px;
+    height:36px;
+    font-weight:300;
+    color:#4F4F4F;
+    margin:16px auto 0;
+    text-align:center;
+}
+.imgDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+.imgDiv img {
+    width: 165px;
+    height: 292px;
+}
+
+.button button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: auto;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 34px;
+}
+
+@media screen and (max-width: 600px) {
+    .image {
+      width: 200px;
+      height: 200px;
+      border: 2px solid red;
+      background: url("../../public/assets/static/united-1.png");
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .headDiv{
+        width: 573px;
+        height: 192px;
+    }
+    .header{
+        font-size: 64px;
+        line-height: 64px;
+    }
+    .textDesc{
+        width: 521px;
+        height: 56px;
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .imgDiv img {
+        width: 311px;
+        height: 548px;
+    }
+    .button button{
+        width: 320px;
+        height: 55px;
+    }
+}
